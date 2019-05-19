@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div id="GameModeDiv">    
+        <label>Singl Player </label> <input type="radio" name="GameMode" value="1" checked>
+        <label>Two Players </label><input type="radio" name="GameMode" value="2" >
+    </div>
+
+    <table id="mainTable">
+        <td>
+            <table>
+                <tr>
+                    <td> <a href=""> <img src="blank.jpg" class="unused" id="0" ifd="r1c1" width="100px" height="100px">
+                    </td>
+                    <td> <a href=""> <img src="blank.jpg" class="unused" id="1" ifd="r1c2" width="100px" height="100px">
+                    </td>
+                    <td> <a href=""> <img src="blank.jpg" class="unused" id="2" id="r1c3" width="100px" height="100px">
+                    </td>
+                </tr>
+                <tr>
+                    <td> <a href=""> <img src="blank.jpg" class="unused" id="3" ifd="r2c1" width="100px" height="100px">
+                    </td>
+                    <td> <a href=""> <img src="blank.jpg" class="unused" id="4" ifd="r2c2" width="100px" height="100px">
+                    </td>
+                    <td> <a href=""> <img src="blank.jpg" class="unused" id="5" ifd="r2c3" width="100px" height="100px">
+                    </td>
+                </tr>
+                <tr>
+                    <td> <a href=""> <img src="blank.jpg" class="unused" id="6" ifd="r3c1" width="100px" height="100px">
+                    </td>
+                    <td> <a href=""> <img src="blank.jpg" class="unused" id="7" ifd="r3c2" width="100px" height="100px">
+                    </td>
+                    <td> <a href=""> <img src="blank.jpg" class="unused" id="8" ifd="r3c3" width="100px" height="100px">
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td><input type="text" id="You" disabled> </td>
+                    <td> <label>You </label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="Computer" disabled> </td>
+                    <td> <label> Computer </label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="Ties" disabled> </td>
+                    <td><label> Ties </label></td>
+                </tr>
+            </table>
+        </td>
+    </table>
+    <div id="buttons">
+        <span>
+            <input type="button" id="playAgain" value="Play Again">
+        </span>
+        <span>
+            <input type="button" id="help" value="Game Help ?">
+        </span>
+        <div> <input type="button" id="exit" value="Exit"></div>
+    </div>
+
+    <script src="Game.js"></script>
+</body>
+
+</html>

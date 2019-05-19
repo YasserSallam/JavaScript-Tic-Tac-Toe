@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+#mainTable{
+    margin-top: 20px;
+    margin-left: 350px;
+}
+#mainTable td{
+    padding: 4px;
+}
+label{
+    color: white;
+}
+#GameModeDiv, #buttons{
+    width: 300px;
+    height: 20px;;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+#GameModeDiv{
+    margin-top: 100px;
+
+}
